@@ -146,12 +146,12 @@ export default function CustomerHomePage() {
         <CategoryNavigation onCategoryClick={handleCategoryClick} />
       </nav>
 
-      <main className="main-content">
+      <master className="main-content">
         <ProductList
           products={products}
           onAddToCart={handleAddToCart}
         />
-      </main>
+      </master>
 
       <Footer />
 
